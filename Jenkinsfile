@@ -39,7 +39,7 @@ pipeline {
                 }
             }
         }
-stage('reload docker images') {
+stage('reload docker images compose') {
     steps {
         script {
             // Reconnect to SSH
